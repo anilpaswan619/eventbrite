@@ -3,34 +3,26 @@ html{
 }
 .logo-name {
     width: 150px;
-    height: 50px;
-   
-    
-    
+    height: 50px;  
 }
 .name1{ 
     font-size: 23px;
-    padding: 8px;
-    
+    padding: 8px; 
     font-weight: 600;
     letter-spacing: -2px;   
-
-  
 }
 a, .name1{
     text-decoration: none;
     color: rgba(255, 68, 0, 0.808);
 }
-#header-container{
-   
+#header-container{  
     display: flex;
 }
 #header-container, .input-border {
     flex-grow: 0;
     flex-shrink: 0;
-    flex-basis: 40px;
-    
-   }
+    flex-basis: 40px;   
+}
 #input-border{
     display:flex;
     margin-left: 30px;
@@ -39,11 +31,9 @@ a, .name1{
     flex-grow: 0;
     flex-shrink: 0;
     flex-basis: 40px;
-    background-color:rgba(248, 248, 255, 0.5);
-   
+    background-color:rgba(248, 248, 255, 0.5);  
 }
-.search-logo {
-    
+.search-logo {   
     margin-top: 8px;
 }
 .place {
@@ -51,12 +41,9 @@ a, .name1{
     background-color: rgba(248, 248, 255, 0.5);
     outline: none;
     border:none;
-    margin-left: 5px;
-    
+    margin-left: 5px;   
 }
-
 .place[placeholder] {
     font-size:13px;
-    font-weight: bold;
-    
+    font-weight: bold; 
 }
