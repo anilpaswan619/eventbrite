@@ -3,14 +3,15 @@ html{
 }
 .logo-name {
     width: 150px;
-    height: 50px;  
-    border: 1px solid red;
+    height: 50px;
+   
 }
 .name1{ 
     font-size: 23px;
     padding: 8px; 
     font-weight: 600;
     letter-spacing: -2px;   
+    border: 1px solid red;
 }
 a, .name1{
     text-decoration: none;
@@ -19,6 +20,7 @@ a, .name1{
 #header-container{  
     display: flex;
     border: 1px solid red;
+  
 }
 #header-container, .input-border {
     flex-grow: 0;
@@ -27,8 +29,9 @@ a, .name1{
 }
 #input-border{
     display:flex;
-    margin-left: 30px;
+    margin-left: 5px;
     border: 1px solid red;
+    
     
 }
 #input-border:hover{
@@ -40,15 +43,16 @@ a, .name1{
     flex-grow: 0;
     flex-shrink: 0;
     flex-basis: 40px;
-    background-color:rgba(248, 248, 255, 0.5);  
+    background-color:rgba(229, 229, 233, 0.5);  
     width: 400px;
 }
 .search-logo {   
     margin-top: 8px;
+    margin-left: 8px;
 }
 .place {
     height:40px;
-    background-color: rgba(248, 248, 255, 0.5);
+    background-color: rgba(229, 229, 233, 0.5);
     outline: none;
     border:none;
     margin-left: 5px;   
@@ -56,6 +60,7 @@ a, .name1{
 .place[placeholder] {
     font-size:13px;
     font-weight: bold; 
+    background-color: rgba(229, 229, 233, 0.5);
 }
 
 
@@ -70,4 +75,87 @@ a, .name1{
       width: 30%;
     }
   }
+
+
+
+
+
+ul {
+    list-style-type:none;
+    padding: 0;
+    
+  }
+ ul li {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  }
+  ul li a {
+    display: block;
+    padding: 8px 25px;
+    color: rgba(0, 0, 0, 0.712);
+    text-decoration: none;
+  }
+ ul li a:hover{
+    background-color: rgba(219, 219, 223, 0.5);
+  }
+ul li ul.sub-menu {
+  display: none;
+  min-width: 100%;
+  position:absolute;
+  z-index: 999;
+  left: 0;
+  background-color: rgba(240, 238, 238, 0.781);
+
+}
+ ul li:hover ul.sub-menu{
+  display:block;
+}
+ul li ul .sub-menu li{
+  display: block;
+}
+
+  
+ 
+
+  
+ 
+  
+ 
+ 
+  
+  
+ /*
+  
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child), .dropdown .dropbtn {
+      display: none;
+    }
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .topnav.responsive .dropdown {float: none;}
+    .topnav.responsive .dropdown-content {position: relative;}
+    .topnav.responsive .dropdown .dropbtn {
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }
+  */
 
